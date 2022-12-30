@@ -34,5 +34,5 @@ for i in  Type.objects.filter(name__contains='P'):
 
 #con tablas relacionadas
 
-empleado=Employee.objects.filter(type_id=2)
+empleado=Employee.objects.filter(types_id=2)
 print(empleado)
